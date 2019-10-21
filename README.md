@@ -38,8 +38,8 @@ mysql_db:
   url: mysql://user:password@host/database (TODO: replace with real credentials) 
 validation_notification_slack_webhook: (TODO: Slack webhook URL for notifications)  
 ```
-
 See https://docs.greatexpectations.io/en/latest/getting_started/cli_init.html#configuring-slack-notifications
+
 5. Create the table in your MySQL database: `python aux_scripts/create_table_from_npi_file.py npi_import_raw` 
 6. Build the local Data Docs website: `great_expectations build-docs`
 
