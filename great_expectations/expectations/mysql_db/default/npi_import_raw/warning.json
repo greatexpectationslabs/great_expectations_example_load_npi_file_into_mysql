@@ -2,7 +2,7 @@
   "data_asset_name": "mysql_db/default/npi_import_raw",
   "expectation_suite_name": "warning",
   "meta": {
-    "great_expectations.__version__": "0.8.0a3+0.g48d38d56.dirty"
+    "great_expectations.__version__": "0.8.1"
   },
   "expectations": [
     {

@@ -14,16 +14,26 @@ The NPI (National Provider Identifier) dataset contains publicly available infor
 
 This example demonstrates how you can use Great Expectations to protect the node against unexpected input data and to test the node's output before additional nodes downstream use this data. In a real deployment our pipeline would be a node in a larger pipeline that would transform the loaded data into some data product. 
 
-Video: 
+
+### What does this example demonstrate   
+
+Video: TBD
 
 
-### What does it show 
+How to use Great Expectations' Validation Operators to: 
+* validate data (both a CSV file and a database table)
+* save the results of validation and render them into HTML
+* use Slack to notify when validation happen
+
+The example does not walk you through the process of bringing Great Expectations into an existing pipeline project or the process of creating expectations. 
+
+These topics are covered in tutorials and videos here: https://docs.greatexpectations.io/en/latest/getting_started.html
 
 
 
 ### Prerequisites 
 
-1. Python installed (Great Expectations supports both Python 2 and 3, but this example was tested only on Python 3)
+1. A Python environment (Great Expectations supports both Python 2 and 3, but this example was tested only on Python 3)
 2. A MySQL server 
 
 
